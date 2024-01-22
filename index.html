@@ -10,14 +10,34 @@
       font-family: 'Arial', sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f8f8f8;
+      background-color: #01c3f8;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url('./images/0.jpg');
+      background-size: 100%;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      height: 600px;
+    }
+
+    .shadow {
+      background-color: #00000090;
+      padding: 2% 0 0 0;
+      width: 100%;
+      box-shadow: 0px 0px 10px #000;
     }
 
     h1 {
       text-align: center;
-      color: #333;
+      color: #ffda61;
+      text-shadow: 2px 2px 5px #000;
       margin-top: 30px;
       margin-bottom: 60px;
+      font-size: 50px;
     }
 
     .gallery {
@@ -26,11 +46,12 @@
       gap: 20px;
       padding: 20px;
       max-width: 1200px;
-      margin: 0 auto;
+      margin: 50px auto;
     }
 
     .image {
       position: relative;
+      border: 1px inset #01c3f8;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -70,7 +91,11 @@
 
 <body>
 
-  <h1>Aconchego da Montanha - Praia da Lagoinha</h1>
+  <div class="banner">
+    <div class="shadow">
+      <h1>Aconchego da Montanha - Praia da Lagoinha</h1>
+    </div>
+  </div>
 
   <div class="gallery">
     <div class="image">
