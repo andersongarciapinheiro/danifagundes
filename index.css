@@ -18,6 +18,66 @@ body {
   z-index: -2;
 }
 
+.menu-container {
+  position: absolute;
+  transform: translateX(50%);
+  right: 50%;
+  top: 570px;
+  max-width: 700px;
+  width: 100%;
+  border-radius: 20px; /* Ajuste conforme necessário */
+  overflow: hidden; /* Para esconder as bordas arredondadas */
+  background-color: #01c3f8; /* Cor de fundo ajustada para o tema de mar e praia */
+}
+
+.horizontal-menu {
+  list-style: none;
+  padding: 4px;
+  margin: 0;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.horizontal-menu li {
+  width: 100px;
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px; /* Ajuste conforme necessário */
+  background-color: #fff; /* Cor de fundo dos itens */
+  padding: 10px; /* Espaçamento interno dos itens */
+}
+
+.horizontal-menu li a {
+  text-decoration: none;
+  color: #333; /* Cor do texto */
+}
+
+.horizontal-menu li:hover {
+  background-color: #007a8c; /* Cor de fundo ao passar o mouse, ajustada para o tema de mar e praia */
+  color: #fff; /* Cor do texto ao passar o mouse */
+}
+
+
+.div-iframe {
+  width: 100%;
+  margin-top: 60px;
+  padding-bottom: 50px;
+}
+
+iframe {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #000;
+}
+
+
+
 .bg {
   top: 0px;
   width: 100%;
@@ -74,7 +134,7 @@ h1 {
   gap: 20px;
   padding: 20px;
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .image {
