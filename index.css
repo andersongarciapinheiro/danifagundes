@@ -24,8 +24,6 @@ body {
   height: 100%;
   position: fixed;
   z-index: -6;
-  border: 1px solid red;
-  
 }
 
 .bgAsset > img {
@@ -81,7 +79,7 @@ h1 {
 
 .image {
   position: relative;
-  border: 1px inset #01c3f8;
+  border: 1px inset #01c3f890;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
