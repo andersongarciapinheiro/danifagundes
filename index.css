@@ -61,10 +61,36 @@ body {
   color: #fff; /* Cor do texto ao passar o mouse */
 }
 
+.sobre-container {
+  padding-bottom: 40px;
+}
+
+
+.sobre {
+  position: relative;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #00000090;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.sobre > h2 {
+  margin: 0;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+}
+.sobre > p {
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 2px 2px 2px #000000;
+}
+
 
 .div-iframe {
   width: 100%;
-  margin-top: 60px;
   padding-bottom: 50px;
 }
 
@@ -123,8 +149,8 @@ h1 {
   text-align: center;
   color: #ffda61;
   text-shadow: 2px 2px 5px #000;
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 60px;
+  margin-bottom: 30px;
   font-size: 50px;
 }
 
@@ -173,6 +199,10 @@ h1 {
 
 .image:hover .caption {
   opacity: 1;
+}
+
+.titulo-form {
+  margin-top: 50px;
 }
 
 form {
