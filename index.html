@@ -25,7 +25,7 @@
     <div class="bgAsset nuvem2">
       <img src="./nuvem.png" alt="" srcset="">
     </div>
-    
+
     <div class="bgAsset coqueiro1">
       <img src="./coqueiro.png" alt="" srcset="">
     </div>
@@ -271,14 +271,40 @@
       <img src="./images/59.jpg" alt="">
       <!-- <div class="caption">Descrição da Imagem 1</div> -->
     </div>
-    <div class="image">
-      <img src="./images/60.jpg" alt="">
-      <!-- <div class="caption">Descrição da Imagem 1</div> -->
-    </div>
-    <div class="image">
-      <img src="./images/61.jpg" alt="">
-      <!-- <div class="caption">Descrição da Imagem 1</div> -->
-    </div>
   </div>
+
+  <form>
+    <label for="nome">Nome Completo:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <label for="endereco">Endereço:</label>
+    <input type="text" id="endereco" name="endereco" required>
+
+    <label for="bairro">Bairro:</label>
+    <input type="text" id="bairro" name="bairro" required>
+
+    <label for="cep">CEP:</label>
+    <input type="text" id="cep" name="cep" required>
+
+    <label for="estadoCivil">Estado Civil:</label>
+    <select id="estadoCivil" name="estadoCivil" required>
+      <option value="solteiro">Solteiro</option>
+      <option value="casado">Casado</option>
+      <option value="divorciado">Divorciado</option>
+      <option value="viuvo">Viúvo</option>
+    </select>
+
+    <label for="profissao">Profissão:</label>
+    <input type="text" id="profissao" name="profissao" required>
+
+    <label for="cnhRg">Cópia/Foto CNH ou RG:</label>
+    <input type="file" id="cnhRg" name="cnhRg" accept="image/*" required>
+
+    <label for="comprovanteResidencia">Cópia/Foto Comprovante de Residência:</label>
+    <input type="file" id="comprovanteResidencia" name="comprovanteResidencia" accept="image/*" required>
+
+    <button type="submit">Enviar</button>
+  </form>
 </body>
+
 </html>
