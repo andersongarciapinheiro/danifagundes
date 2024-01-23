@@ -150,7 +150,13 @@ input, select {
   box-sizing: border-box;
 }
 
+textarea {
+  width: 100%;
+  resize: none;
+}
+
 button {
+  margin-top: 20px;
   background-color: #4CAF50;
   color: #fff;
   padding: 10px 20px;
@@ -162,3 +168,4 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
