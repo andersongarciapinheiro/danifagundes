@@ -329,4 +329,15 @@ button:hover {
   .image-turismo {
     background-color: #01c3f8dd;
   }
+
+.gallery-turismo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.image-turismo {
+  width: 206px;
+}
 }
