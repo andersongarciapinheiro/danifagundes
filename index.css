@@ -329,4 +329,14 @@ button:hover {
   .container {
     margin-top: 130px;
   }
+
+  .image:hover {
+    transform: scale(1);
+    box-shadow: none;
+  }
+
+  .image{
+    max-width: 100%;
+    width: 95%;
+  }
 }
