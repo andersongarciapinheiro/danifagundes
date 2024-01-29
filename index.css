@@ -339,4 +339,16 @@ button:hover {
     max-width: 100%;
     width: 95%;
   }
+
+  .gallery-turismo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .image-turismo {
+    width: 210px;
+  }
 }
