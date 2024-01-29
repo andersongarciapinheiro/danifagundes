@@ -107,6 +107,7 @@ body {
 .div-iframe {
   width: 100%;
   padding-bottom: 50px;
+  margin-top: 130px;
 }
 
 iframe {
@@ -165,21 +166,22 @@ h1 {
   text-align: center;
   color: #ffda61;
   text-shadow: 2px 2px 5px #000;
-  margin-top: 60px;
-  margin-bottom: 30px;
   font-size: 50px;
 }
 
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 20px;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   max-width: 1200px;
   margin: 20px auto;
 }
 
 .image {
+  max-width: 230px;
   position: relative;
   border: 1px inset #01c3f890;
   overflow: hidden;
@@ -220,6 +222,7 @@ h1 {
   border: 1px inset #01c3f890;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #01c3f8dd;
 }
 
 .gallery-turismo {
@@ -311,6 +314,7 @@ button:hover {
     border-radius: 0px;
     padding: 10px 0;
     background-color: #01c3f8dd;
+    margin-bottom: 10px;
   }
 
   .horizontal-menu {
@@ -318,26 +322,7 @@ button:hover {
     height: 80px;
   }
 
-  .sobre>h2 {
-    font-size: 20px;
+  .container {
+    margin-top: 130px;
   }
-
-  .image:hover {
-    transform: scale(1);
-    box-shadow: none
-  }
-  .image-turismo {
-    background-color: #01c3f8dd;
-  }
-
-.gallery-turismo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-.image-turismo {
-  width: 206px;
-}
 }
