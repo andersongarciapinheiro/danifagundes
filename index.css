@@ -30,9 +30,12 @@ body {
   top: 570px;
   max-width: 700px;
   width: 100%;
-  border-radius: 20px; /* Ajuste conforme necessário */
-  overflow: hidden; /* Para esconder as bordas arredondadas */
-  background-color: #01c3f8; /* Cor de fundo ajustada para o tema de mar e praia */
+  border-radius: 20px;
+  /* Ajuste conforme necessário */
+  overflow: hidden;
+  /* Para esconder as bordas arredondadas */
+  background-color: #01c3f8;
+  /* Cor de fundo ajustada para o tema de mar e praia */
 }
 
 .horizontal-menu {
@@ -51,19 +54,25 @@ body {
   font-size: 15px;
   font-weight: bold;
   text-align: center;
-  border-radius: 10px; /* Ajuste conforme necessário */
-  background-color: #fff; /* Cor de fundo dos itens */
-  padding: 10px; /* Espaçamento interno dos itens */
+  border-radius: 10px;
+  /* Ajuste conforme necessário */
+  background-color: #fff;
+  /* Cor de fundo dos itens */
+  padding: 10px;
+  /* Espaçamento interno dos itens */
 }
 
 .horizontal-menu li a {
   text-decoration: none;
-  color: #333; /* Cor do texto */
+  color: #333;
+  /* Cor do texto */
 }
 
 .horizontal-menu li:hover {
-  background-color: #007a8c; /* Cor de fundo ao passar o mouse, ajustada para o tema de mar e praia */
-  color: #fff; /* Cor do texto ao passar o mouse */
+  background-color: #007a8c;
+  /* Cor de fundo ao passar o mouse, ajustada para o tema de mar e praia */
+  color: #fff;
+  /* Cor do texto ao passar o mouse */
 }
 
 .sobre-container {
@@ -82,12 +91,13 @@ body {
   padding: 30px;
 }
 
-.sobre > h2 {
+.sobre>h2 {
   margin: 0;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
 }
-.sobre > p {
+
+.sobre>p {
   font-size: 16px;
   color: #ffffff;
   text-shadow: 2px 2px 2px #000000;
@@ -117,9 +127,10 @@ iframe {
   z-index: -6;
 }
 
-.bgAsset > img {
+.bgAsset>img {
   width: 100%;
 }
+
 .nuvem1 {
   position: absolute;
 }
@@ -257,7 +268,9 @@ label {
   font-weight: bold;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -284,3 +297,36 @@ button:hover {
   background-color: #45a049;
 }
 
+@media only screen and (max-width: 480px) {
+  .banner {
+    height: 210px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .menu-container {
+    top: 210px;
+    border-radius: 0px;
+    padding: 10px 0;
+    background-color: #01c3f8dd;
+  }
+
+  .horizontal-menu {
+    flex-flow: wrap;
+    height: 80px;
+  }
+
+  .sobre>h2 {
+    font-size: 20px;
+  }
+
+  .image:hover {
+    transform: scale(1);
+    box-shadow: none
+  }
+  .image-turismo {
+    background-color: #01c3f8dd;
+  }
+}
