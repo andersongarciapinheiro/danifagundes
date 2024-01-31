@@ -420,22 +420,22 @@ button:hover {
   }
 
   .carrossel-container {
-    width: 440px;
+    width: 100%;
   }
 
   .carrossel {
-    width: 400px;
+    width: 90%;
   }
 
   .prev-btn {
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     left: 0;
   }
 
   .next-btn {
-    width: 50px;
-    height: 50px;
-    right: 0;
+    width: 40px;
+    height: 40px;
+    right: 0  ;
   }
 }
