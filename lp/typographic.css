@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Satoshi-Bold';
+    src: url('./typographic/Satoshi-Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Satoshi-Regular';
+    src: url('./typographic/Satoshi-Regular.otf') format('opentype');
+    font-weight: normal;
+}
