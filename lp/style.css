@@ -1032,12 +1032,12 @@ footer img {
   }
 
   .white-section article {
-    max-width: 260px;
+    max-width: 320px;
   }
 
   .background-img {
-    top: 190px;
-    right: -84px;
+    top: 230px;
+    right: -24px;
   }
 
   .background-img img {
@@ -1045,7 +1045,7 @@ footer img {
   }
 
   .video-section {
-    margin-top: 20px;
+    margin-top: 80px;
   }
 
   .cta-button,
@@ -1066,7 +1066,7 @@ footer img {
   }
 
   .yellow-section article {
-    max-width: 260px;
+    max-width: 330px;
     margin-left: 0px;
     position: relative;
     top: -100px;
@@ -1075,7 +1075,7 @@ footer img {
   .blue-section article {
     margin-left: 0px;
     top: -30px;
-    max-width: 260px;
+    max-width: 330px;
   }
 
   .footer-image img {
