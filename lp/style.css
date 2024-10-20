@@ -890,6 +890,10 @@ footer img {
 /* Media query para 420px de largura */
 @media screen and (max-width: 479px) {
 
+  .none {
+    display: none;
+  }
+
   .header img {
     max-width: 150px;
   }
@@ -938,12 +942,12 @@ footer img {
   }
 
   .background-img {
-    top: 11px;
-    right: -144px;
-  }
+    top: 91px;
+    right: -114px;
+}
 
   .background-img img {
-    max-width: 320px;
+    max-width: 250px;
   }
 
   .cta-button,
@@ -1008,8 +1012,8 @@ footer img {
 
 }
 
-/* Media query para 420px de largura */
-@media screen and (max-width: 419px) {
+/* Media query para 412px de largura */
+@media screen and (max-width: 411px) {
 
   .header {
     padding: 20px;
