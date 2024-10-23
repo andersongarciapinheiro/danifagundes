@@ -20,11 +20,23 @@ body {
   width: 100%;
 }
 
-.bg-yellow {background-color: #ffd500;}
+.bg-yellow {
+  background-color: #ffc600;
+  position: relative;
+}
 
-.bg-blue {background-color: #5cbce7;}
+.bg-blue {
+  background-color: #5cbce7;
+  background-image: url('./assets/bg_bloco3.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-position: bottom;
+}
 
-.bg-footer {background-color: #f5f5f5;}
+.bg-footer {
+  background-color: #f5f5f5;
+}
 
 h1,
 h2 {
@@ -48,12 +60,15 @@ p {
 }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #ffffff;
   width: 100%;
 }
 
 .header {
-  max-width: 1200px;
+  max-width: 1920px;
   width: 100%;
   display: flex;
   align-items: center;
@@ -73,6 +88,10 @@ header {
   font-weight: normal;
 }
 
+.img_bloco1_0 {
+  display: none;
+}
+
 .white-section {
   max-width: 1920px;
   position: relative;
@@ -84,10 +103,6 @@ header {
   margin: 0 auto;
 }
 
-.img_bloco1_2,
-.img_bloco1_3 {
-  display: none;
-}
 
 .white-section article {
   max-width: 890px;
@@ -117,7 +132,7 @@ header {
 }
 
 .video-section {
-  margin-top: 120px;
+  margin-top: 70px;
   position: relative;
 }
 
@@ -157,20 +172,20 @@ header {
 
 .background-img {
   position: absolute;
-  right: 0px;
-  top: -103px;
+  right: -550px;
+  top: -47px;
   bottom: 0;
-  z-index: 1;
+  z-index: 0;
 }
 
 .background-img img {
-  max-width: 1066px;
+  max-width: 1593px;
   height: auto;
 }
 
 .yellow-section {
   max-width: 1920px;
-  background-color: #ffd500;
+  background-color: #ffc600;
   text-align: left;
   position: relative;
   display: flex;
@@ -178,6 +193,7 @@ header {
   align-items: center;
   min-height: 690px;
   margin: 0 auto;
+  z-index: 2;
 }
 
 .yellow-section article {
@@ -200,10 +216,10 @@ header {
 
 .img-left {
   position: absolute;
-  left: 0;
+  left: -130px;
   width: 100%;
-  bottom: -45px;
-  max-width: 569px;
+  bottom: 0;
+  max-width: 716px;
   z-index: 1;
 }
 
@@ -218,19 +234,12 @@ header {
 .blue-section {
   max-width: 1920px;
   font-family: 'Satoshi-Bold', sans-serif;
-  background-color: #00a4e4;
-  color: white;
   text-align: left;
   position: relative;
-  background-image: url('./assets/bg_bloco3.webp');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   min-height: 1060px;
   display: flex;
   align-items: center;
   justify-content: center;
-  overflow: hidden;
   margin: 0 auto;
 }
 
@@ -336,7 +345,7 @@ footer img {
 .footer-image {
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: -210px;
   z-index: 1;
 }
 
@@ -350,11 +359,11 @@ footer img {
   }
 
   .header img {
-    max-width: 280px;
+    max-width: 230px;
   }
 
   .header h1 {
-    font-size: 50px;
+    font-size: 30px;
   }
 
   .white-section {
@@ -383,16 +392,16 @@ footer img {
     padding: 20px 15px;
     font-size: 30px;
     max-width: 300px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .background-img {
-    top: -74px;
-    right: -60px;
+    top: -30px;
+    right: -350px;
   }
 
   .background-img img {
-    max-width: 750px;
+    max-width: 1000px;
   }
 
   .yellow-section {
@@ -409,8 +418,8 @@ footer img {
   }
 
   .img-left {
-    max-width: 400px;
-    bottom: -32px;
+    max-width: 520px;
+    left: -70px;
   }
 
   .img-right {
@@ -443,6 +452,10 @@ footer img {
     margin-left: 540px;
     top: -90px;
     max-width: 740px;
+  }
+
+  .footer-image {
+    right: -140px;
   }
 
   .footer-image img {
@@ -483,11 +496,11 @@ footer img {
   }
 
   .header img {
-    max-width: 250px;
+    max-width: 220px;
   }
 
   .header h1 {
-    font-size: 45px;
+    font-size: 30px;
   }
 
   /* Seção Branca */
@@ -527,12 +540,13 @@ footer img {
 
   /* Imagem de fundo na seção branca */
   .background-img {
-    top: -68px;
+    top: -28px;
     z-index: 0;
+    right: -270px;
   }
 
   .background-img img {
-    max-width: 700px;
+    max-width: 947px;
   }
 
   /* Seção Amarela */
@@ -554,8 +568,8 @@ footer img {
   }
 
   .img-left {
-    max-width: 370px;
-    bottom: -29px;
+    max-width: 480px;
+    left: -50px;
   }
 
   .img-right {
@@ -565,6 +579,11 @@ footer img {
   }
 
   /* Seção Azul */
+
+  .bg-blue {
+    background-size: 120%;
+  }
+
   .blue-section {
     min-height: 800px;
   }
@@ -623,11 +642,13 @@ footer img {
 /* Media query para 1280px de largura */
 @media screen and (max-width: 1365px) {
   .background-img {
-    top: -67px;
+    top: -28px;
+    right: -350px;
   }
 
-  .background-img img {
-    max-width: 685px;
+  .img-left {
+    max-width: 470px;
+    left: -90px;
   }
 
   .cta-button,
@@ -641,16 +662,34 @@ footer img {
   .video-section {
     margin-top: 40px;
   }
+
+  .blue-section {
+    min-height: 710px;
+  }
+
+  .img-left {
+    max-width: 470px;
+    left: -90px;
+  }
+
+  .footer-image {
+    right: -200px;
+  }
 }
 
 /* Media query para 1024px de largura */
 @media screen and (max-width: 1279px) {
+
+  .header {
+    max-width: 990px;
+  }
+
   .header img {
     max-width: 210px;
   }
 
   .header h1 {
-    font-size: 35px;
+    font-size: 30px;
   }
 
   .white-section {
@@ -679,12 +718,12 @@ footer img {
   }
 
   .background-img {
-    top: -55px;
-    right: -70px;
+    top: -23px;
+    right: -310px;
   }
 
   .background-img img {
-    max-width: 573px;
+    max-width: 790px;
   }
 
   .yellow-section {
@@ -692,13 +731,13 @@ footer img {
   }
 
   .img-left {
-    max-width: 330px;
-    bottom: -26px;
+    max-width: 370px;
+    left: -70px;
   }
 
   .yellow-section article {
-    max-width: 510px;
-    margin-left: 180px;
+    max-width: 570px;
+    margin-left: 160px;
   }
 
   .img-right {
@@ -713,6 +752,10 @@ footer img {
     max-width: 510px;
   }
 
+  .bg-blue {
+    background-size: 140%;
+  }
+
   .footer-image img {
     max-width: 620px;
   }
@@ -725,24 +768,16 @@ footer img {
   }
 
   .header h1 {
-    font-size: 30px;
+    font-size: 24px;
   }
 
   .background-img {
-    top: 1px;
-    right: -90px;
-  }
-
-  .img_bloco1_1 {
-    display: none;
-  }
-
-  .img_bloco1_2 {
-    display: block;
+    top: -21px;
+    right: -300px;
   }
 
   .background-img img {
-    max-width: 490px;
+    max-width: 700px;
   }
 
   .white-section h2,
@@ -772,7 +807,7 @@ footer img {
   }
 
   .img-right {
-    max-width: 70px;
+    max-width: 60px;
   }
 
   .yellow-section {
@@ -785,8 +820,7 @@ footer img {
   }
 
   .img-left {
-    max-width: 250px;
-    bottom: -20px;
+    max-width: 320px;
   }
 
   .blue-section {
@@ -797,6 +831,10 @@ footer img {
     margin-left: 260px;
     top: -30px;
     max-width: 380px;
+  }
+
+  .footer-image {
+    right: -120px;
   }
 
   .footer-image img {
@@ -811,20 +849,21 @@ footer img {
 /* Media query para 480px de largura */
 @media screen and (max-width: 767px) {
 
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+
   .header img {
     max-width: 150px;
+    padding: 20px 0;
   }
 
   .header h1 {
-    font-size: 22px;
-  }
-
-  .img_bloco1_2 {
-    display: none;
-  }
-
-  .img_bloco1_3 {
-    display: block;
+    font-size: 20px;
   }
 
   .white-section {
@@ -837,13 +876,21 @@ footer img {
     margin-left: 30px;
   }
 
+  .img_bloco1_1 {
+    display: none;
+  }
+
+  .img_bloco1_0 {
+    display: block;
+  }
+
   .background-img {
     top: 51px;
-    right: -180px;
+    right: -130px;
   }
 
   .background-img img {
-    max-width: 390px;
+    max-width: 350px;
   }
 
   .video-section {
@@ -855,8 +902,8 @@ footer img {
   }
 
   .img-left {
-    max-width: 160px;
-    bottom: -13px;
+    max-width: 200px;
+    left: -20px;
   }
 
   .yellow-section article {
@@ -872,12 +919,6 @@ footer img {
     max-width: 80px;
   }
 
-  .blue-section {
-    background-image: url(./assets/bg_bloco3_reduzido.webp);
-    background-size: 100%;
-    background-position-y: bottom;
-    background-color: #21bfeb;
-  }
 
   .blue-section article {
     margin-left: 0px;
@@ -893,8 +934,12 @@ footer img {
     font-size: 18px;
   }
 
+  .footer-image {
+    right: -75px;
+  }
+
   .footer-image img {
-    max-width: 254px;
+    max-width: 330px;
   }
 
   footer {
@@ -912,20 +957,17 @@ footer img {
     display: none;
   }
 
+  .header {
+    padding: 20px;
+  }
+
   .header img {
-    max-width: 150px;
+    max-width: 110px;
+    padding: 0 0 10px 0;
   }
 
   .header h1 {
-    font-size: 22px;
-  }
-
-  .img_bloco1_2 {
-    display: none;
-  }
-
-  .img_bloco1_3 {
-    display: block;
+    font-size: 16px;
   }
 
   .white-section {
@@ -976,17 +1018,20 @@ footer img {
     margin-top: 20px;
   }
 
+  .blue-section {
+    min-height: 590px;
+  }
+
   .video-section {
     margin-bottom: 10px;
   }
 
   .yellow-section {
-    min-height: 500px;
+    min-height: 540px;
   }
 
   .img-left {
-    max-width: 160px;
-    bottom: -13px;
+    max-width: 200px;
   }
 
   .yellow-section article {
@@ -1002,12 +1047,8 @@ footer img {
     max-width: 80px;
   }
 
-  .blue-section {
-    background-image: url(./assets/bg_bloco3_reduzido.webp);
-    background-size: 100%;
-    background-position-y: bottom;
-    background-color: #21bfeb;
-    min-height: 530px;
+  .bg-blue {
+    background-size: 110%;
   }
 
   .blue-section article {
@@ -1024,8 +1065,12 @@ footer img {
     font-size: 18px;
   }
 
+  .footer-image {
+    right: -53px;
+  }
+
   .footer-image img {
-    max-width: 190px;
+    max-width: 240px;
   }
 
 }
@@ -1054,12 +1099,12 @@ footer img {
   }
 
   .background-img {
-    top: 230px;
-    right: -24px;
+    top: 210px;
+    right: -64px;
   }
 
   .background-img img {
-    max-width: 219px;
+    max-width: 200px;
   }
 
   .video-section {
@@ -1110,7 +1155,7 @@ footer img {
 @media screen and (max-width: 389px) {
 
   .header {
-    padding: 20px;
+    padding: 15px;
   }
 
   .header img {
@@ -1118,7 +1163,7 @@ footer img {
   }
 
   .header h1 {
-    font-size: 17px;
+    font-size: 15px;
   }
 
   .white-section {
@@ -1152,7 +1197,7 @@ footer img {
   }
 
   .yellow-section {
-    min-height: 550px;
+    min-height: 610px;
   }
 
   .yellow-section article {
