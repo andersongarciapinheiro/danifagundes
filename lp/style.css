@@ -283,6 +283,7 @@ header {
   left: 50%;
   transform: translate(-50%);
   transition: background-color 0.3s ease, transform 0.2s ease;
+  z-index: 999;
 }
 
 .blue-section .cta-button:hover {
@@ -793,6 +794,10 @@ footer img {
     max-width: 450px;
   }
 
+  .socials {
+    left: 50px;
+  }
+
   .arsesp {
     position: relative;
     max-width: 150px;
@@ -887,6 +892,10 @@ footer img {
 
   .socials {
     left: 0px;
+  }
+
+  .socials nav img {
+    width: 35px;
   }
 
   .footer-image img {
